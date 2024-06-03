@@ -41,10 +41,10 @@ int main() {
     float largest;
     if (L2 % 2 == 0) {
         largest = (float)L2 * 2;
-        printf("Even largest: %.2f\n", largest);
+        printf("Even 2nd largest: %.2f\n", largest);
     } else {
         largest = (float)L2 / 2;
-        printf("Odd largest: %.2f\n", largest);
+        printf("Odd 2nd largest: %.2f\n", largest);
     }
 
 
